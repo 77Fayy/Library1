@@ -25,7 +25,7 @@ struct SignInView: View {
             
             Image("logo1")
                 .resizable()
-                .scaledToFit()
+                .frame(width:260,height: 220)
             
             
             Text("إغناء")

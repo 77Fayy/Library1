@@ -9,7 +9,33 @@ import SwiftUI
 
 struct boy: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            
+            Image("logo1")
+                .resizable()
+                .frame(width:260,height: 220)
+            //  .scaledToFit()
+            
+            
+            Text("إغناء")
+                .font(.largeTitle)
+                .foregroundColor(Color("purple1"))
+            Text("أختر شخصيتك للأنطلاق في رحلة تفاعلية غنية بالمغامرات والمعرفة  ")
+                .multilineTextAlignment(.center)
+                .font(.body)
+                .padding()
+            Image("boy")
+                .resizable()
+                .scaledToFit()
+            Spacer()
+            
+           
+              
+                
+            
+         
+            
+        }
     }
 }
 

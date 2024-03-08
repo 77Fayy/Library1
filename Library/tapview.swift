@@ -7,68 +7,37 @@
 
 import SwiftUI
 
-struct CustomSignInView: View {
-    @State private var username: String = ""
-    @State private var email: String = ""
-    @State private var password: String = ""
-
+struct GirlView: View {
     var body: some View {
-        VStack {
-            // Logo and star, replace with your actual assets
-            Image("logo1")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 300, height: 250)
-//            Image(systemName: "star.fill")
-//                .resizable()
-//                .frame(width: 20, height: 20)
-//                .foregroundColor(.yellow)
+        // Your GirlView content here
+       girl()
+    }
+}
 
-            // Greeting Text
-            Text("إغناء")
-                .font(.largeTitle)
-                .foregroundColor(Color("purple1"))
-            Text("اكتشف غناء واتساع في رحلة تجمع بين منتجع القراة والابداع!")
-                .multilineTextAlignment(.center)
-                .font(.body)
-                .padding()
+struct BoyView: View {
+    var body: some View {
+      boy()
+    }
+}
 
-            // TextFields for username, email, and password
-            Group {
-                TextField("الاسم الاول", text: $username)
-                TextField("الاسم الاخير", text: $email)
-                SecureField("كلمة المرور", text: $password)
-            }
-            .padding(.horizontal)
-            .frame(height: 45)
-            .background(Color.white)
-            .cornerRadius(8)
-            .overlay(
-                RoundedRectangle(cornerRadius: 8)
-                    .stroke(Color.gray, lineWidth: 1)
-            )
-            .padding(.horizontal)
+struct TabViewExample: View {
+    var body: some View {
+        TabView {
+            GirlView()
+                .tabItem { Label("Girl", systemImage: "person.fill") }
+                .tag(0)
 
-            // Sign In Button
-            Button(action: {
-                // Handle sign in action
-            }) {
-                Text("أنضم معنا")
-                    .font(.headline)
-                    .foregroundColor(Color("purple1"))                    .frame(maxWidth: .infinity, maxHeight: 45)
-                    .cornerRadius(23)
-                    .foregroundColor(Color("purple1"))
-            }
-            .padding(.horizontal)
-
-            Spacer()
+            BoyView()
+                .tabItem { Label("Boy", systemImage: "person.fill") }
+                .tag(1)
         }
-        .background(Color.white)
+        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
     }
 }
 
-struct CustomSignInView_Previews: PreviewProvider {
+struct TabViewExample_Previews: PreviewProvider {
     static var previews: some View {
-        CustomSignInView()
+        TabViewExample()
     }
 }
+

@@ -9,7 +9,23 @@ import SwiftUI
 
 struct Book: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack{
+            Image("up")
+            Spacer()
+            Spacer()
+            Spacer()
+           
+            Image("logo1")
+                .resizable()
+                .frame(width:260,height: 220)
+           
+        }
+        Spacer()
+        Spacer()
+        Spacer()
+       
+        
     }
 }
 

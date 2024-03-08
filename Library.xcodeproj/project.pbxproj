@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		A930ABF52B9A255A0024F8C0 /* LibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930ABF42B9A255A0024F8C0 /* LibraryApp.swift */; };
-		A930ABF72B9A255A0024F8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930ABF62B9A255A0024F8C0 /* ContentView.swift */; };
+		A930ABF72B9A255A0024F8C0 /* Splach.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930ABF62B9A255A0024F8C0 /* Splach.swift */; };
 		A930ABF92B9A255C0024F8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A930ABF82B9A255C0024F8C0 /* Assets.xcassets */; };
 		A930ABFC2B9A255C0024F8C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A930ABFB2B9A255C0024F8C0 /* Preview Assets.xcassets */; };
+		A930AC032B9A25C40024F8C0 /* createacc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930AC022B9A25C40024F8C0 /* createacc.swift */; };
+		A930AC052B9B2E8C0024F8C0 /* ActionJump.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A930AC042B9B2E8C0024F8C0 /* ActionJump.mlmodel */; };
+		A930AC072B9B4B320024F8C0 /* tapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930AC062B9B4B320024F8C0 /* tapview.swift */; };
+		A930AC092B9B4F4E0024F8C0 /* girl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930AC082B9B4F4E0024F8C0 /* girl.swift */; };
+		A930AC0B2B9B4F5C0024F8C0 /* boy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930AC0A2B9B4F5C0024F8C0 /* boy.swift */; };
+		A930AC0D2B9B68900024F8C0 /* camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930AC0C2B9B68900024F8C0 /* camera.swift */; };
+		A930AC132B9B960A0024F8C0 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930AC122B9B960A0024F8C0 /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A930ABF12B9A255A0024F8C0 /* Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Library.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A930ABF42B9A255A0024F8C0 /* LibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryApp.swift; sourceTree = "<group>"; };
-		A930ABF62B9A255A0024F8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A930ABF62B9A255A0024F8C0 /* Splach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splach.swift; sourceTree = "<group>"; };
 		A930ABF82B9A255C0024F8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A930ABFB2B9A255C0024F8C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A930AC022B9A25C40024F8C0 /* createacc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createacc.swift; sourceTree = "<group>"; };
+		A930AC042B9B2E8C0024F8C0 /* ActionJump.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ActionJump.mlmodel; path = ../../Downloads/ActionJump.mlmodel; sourceTree = "<group>"; };
+		A930AC062B9B4B320024F8C0 /* tapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapview.swift; sourceTree = "<group>"; };
+		A930AC082B9B4F4E0024F8C0 /* girl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = girl.swift; sourceTree = "<group>"; };
+		A930AC0A2B9B4F5C0024F8C0 /* boy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boy.swift; sourceTree = "<group>"; };
+		A930AC0C2B9B68900024F8C0 /* camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camera.swift; sourceTree = "<group>"; };
+		A930AC122B9B960A0024F8C0 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,7 @@
 		A930ABE82B9A255A0024F8C0 = {
 			isa = PBXGroup;
 			children = (
+				A930AC042B9B2E8C0024F8C0 /* ActionJump.mlmodel */,
 				A930ABF32B9A255A0024F8C0 /* Library */,
 				A930ABF22B9A255A0024F8C0 /* Products */,
 			);
@@ -52,7 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				A930ABF42B9A255A0024F8C0 /* LibraryApp.swift */,
-				A930ABF62B9A255A0024F8C0 /* ContentView.swift */,
+				A930ABF62B9A255A0024F8C0 /* Splach.swift */,
+				A930AC022B9A25C40024F8C0 /* createacc.swift */,
+				A930AC062B9B4B320024F8C0 /* tapview.swift */,
+				A930AC082B9B4F4E0024F8C0 /* girl.swift */,
+				A930AC0A2B9B4F5C0024F8C0 /* boy.swift */,
+				A930AC0C2B9B68900024F8C0 /* camera.swift */,
+				A930AC122B9B960A0024F8C0 /* Book.swift */,
 				A930ABF82B9A255C0024F8C0 /* Assets.xcassets */,
 				A930ABFA2B9A255C0024F8C0 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A930ABF72B9A255A0024F8C0 /* ContentView.swift in Sources */,
+				A930AC0D2B9B68900024F8C0 /* camera.swift in Sources */,
+				A930AC052B9B2E8C0024F8C0 /* ActionJump.mlmodel in Sources */,
+				A930AC092B9B4F4E0024F8C0 /* girl.swift in Sources */,
+				A930ABF72B9A255A0024F8C0 /* Splach.swift in Sources */,
+				A930AC0B2B9B4F5C0024F8C0 /* boy.swift in Sources */,
+				A930AC132B9B960A0024F8C0 /* Book.swift in Sources */,
 				A930ABF52B9A255A0024F8C0 /* LibraryApp.swift in Sources */,
+				A930AC072B9B4B320024F8C0 /* tapview.swift in Sources */,
+				A930AC032B9A25C40024F8C0 /* createacc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +303,10 @@
 				DEVELOPMENT_TEAM = 5U4L7T7WUD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,10 +332,10 @@
 				DEVELOPMENT_TEAM = 5U4L7T7WUD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
